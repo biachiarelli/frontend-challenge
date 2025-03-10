@@ -70,13 +70,13 @@ Um formulário que permite ao usuário inserir seu nome, endereço de e-mail e s
 
 Quando o usuário preenche o formulário e clica no botão "Dar consentimento", o consentimento é adicionado à lista de consentimentos exibida na segunda tela.
 
-![Mockup](https://github.com/talentacademybr/frontend-challenge/raw/master/wireframes/1%20-%20Give%20consent.png)
+![Mockup](https://github.com/talentacademybr/frontend-challenge/blob/main/wireframes/1%20-%20Give%20consent.png?raw=true)
 
 ### 2. Gerenciamento de consentimentos
 
 Uma lista de consentimentos que foram dados pelos usuários. Esta tela simplesmente exibe os itens da lista com paginação no lado do cliente.
 
-![Mockup](https://github.com/talentacademybr/frontend-challenge/raw/master/wireframes/2%20-%20Collected%20consents.png)
+![Mockup](https://github.com/talentacademybr/frontend-challenge/blob/main/wireframes/2%20-%20Collected%20consents.png?raw=true)
 
 ## Sessão de Revisão
 
