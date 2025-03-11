@@ -2,7 +2,7 @@
 
 Para posições de desenvolvedor na Talent Academy, nosso processo de contratação consiste em 3 etapas:
 
--   Um desafio de código para construir um projeto simples (API, SPA, etc.). Isso será usado como base para discussão na próxima etapa. Você pode encontrar todos os nossos desafios neste repositório. Também aceitamos projetos pessoais ou de código aberto adequados no lugar do desafio.
+-   Um desafio de código para construir um projeto simples (API, SPA, etc.). Isso será usado como base para discussão na próxima etapa.
 -   Uma sessão de introdução + revisão de código e arquitetura de aproximadamente 45 minutos
 -   Uma sessão de fit cultural
 
