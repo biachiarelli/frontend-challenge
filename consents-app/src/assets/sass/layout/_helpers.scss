@@ -1,0 +1,15 @@
+.hide-desktop {
+  display: block !important;
+
+  @media (min-width: 930px) {
+    display: none !important;
+  }
+}
+
+.hide-mobile {
+  display: none !important;
+
+  @media (min-width: 930px) {
+    display: block !important;
+  }
+}

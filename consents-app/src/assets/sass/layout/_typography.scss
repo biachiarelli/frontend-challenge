@@ -1,0 +1,164 @@
+
+:root {
+  --text-xsss: clamp(0.3rem, calc(0.53rem + 0.59vw), 0.7rem);
+  --text-xss2: clamp(0.45rem, calc(0.57rem + 0.62vw), 0.85rem);
+  --text-xss: clamp(0.6rem, calc(0.65rem + 0.65vw), 1rem);
+  --text-xs: clamp(0.87rem, calc(0.72rem + 0.72vw), 1.28rem);
+  --text-sm: clamp(1.04rem, calc(0.85rem + 0.97vw), 1.6rem);
+  --text-md: clamp(1.25rem, calc(0.99rem + 1.3vw), 2rem);
+  --text-lg: clamp(1.5rem, calc(1.15rem + 1.74vw), 2.5rem);
+  --text-xl: clamp(1.8rem, calc(1.34rem + 2.3vw), 3.13rem);
+  --text-2xl: clamp(2.16rem, calc(1.55rem + 3.04vw), 3.91rem);
+  --text-3xl: clamp(2.59rem, calc(1.79rem + 3.98vw), 4.88rem);
+  --text-4xl: clamp(3.11rem, calc(2.07rem + 5.21vw), 6.1rem);
+
+  --text-body-large: 24px;
+  --text-body: 20px;
+  --text-body-small: 16px;
+
+  --text-button: 16px;
+  --text-button-small: 14px;
+  --text-button-large: 18px;
+
+  --text-caption: 12px;
+
+
+  --text-h1: 34px;
+  --text-h2: 30px;
+  --text-h3: 28px;
+  --text-h4: 22px;
+  --text-h5: 18px;
+  --text-subtitle: 18px;
+  --text-p: 16px;
+  --text-label: 14px;
+
+
+}
+
+.tpy_h1 {
+  font-size: var(--text-h1);
+  line-height: 51px;
+  font-weight: 400;
+  font-family: 'Poppins', sans-serif;
+}
+
+.tpy_h2 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+
+  @media (min-width: 930px) {
+    font-size: var(--text-h2);
+    line-height: 45px;
+  }
+}
+
+.tpy_h3 {
+  font-size: var(--text-h3);
+  line-height: 42px;
+  font-weight: 400;
+  font-family: 'Poppins', sans-serif;
+}
+
+.tpy_h4 {
+  font-size: var(--text-h4);
+  line-height: 36px;
+  font-weight: 400;
+  font-family: 'Poppins', sans-serif;
+}
+
+.tpy_h5 {
+  font-size: var(--text-h5);
+  line-height: 27px;
+  font-weight: 500;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+.tpy_subtitle {
+  font-size: var(--text-subtitle);
+  line-height: 27px;
+  font-weight: 500;
+  font-family: 'Poppins', sans-serif;
+}
+
+.tpy_label {
+  font-size: var(--text-subtitle);
+  line-height: 27px;
+  font-weight: 400;
+  font-family: 'Poppins', sans-serif;
+}
+
+.tpy_p {
+  font-size: var(--text-p);
+  line-height: 24px;
+  font-weight: 400;
+  font-family: 'Poppins', sans-serif;
+}
+
+.tpy_link {
+  font-size: var(--text-p);
+  line-height: 24px;
+  font-weight: 400;
+  font-family: 'Poppins', sans-serif;
+}
+
+@media (min-width: 930px) {
+  .tpy_h1 {
+    font-size: var(--text-h1);
+    line-height: 51px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .tpy_h3 {
+    font-size: var(--text-h3);
+    line-height: 42px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .tpy_h4 {
+    font-size: var(--text-h4);
+    line-height: 36px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .tpy_h5 {
+    font-size: var(--text-h5);
+    line-height: 27px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+  }
+
+
+  .tpy_subtitle {
+    font-size: var(--text-subtitle);
+    line-height: 27px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .tpy_label {
+    font-size: var(--text-subtitle);
+    line-height: 27px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .tpy_p {
+    font-size: var(--text-p);
+    line-height: 24px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .tpy_link {
+    font-size: var(--text-p);
+    line-height: 24px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+  }
+}
