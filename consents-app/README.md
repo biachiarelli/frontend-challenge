@@ -1,59 +1,48 @@
 # ConsentsApp
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.3.
+This is a frontend challenge project that involves creating a simple Angular application that allows:
 
-## Development server
+📄 Displaying a form to register user consents (name, email, and consent options).
 
-To start a local development server, run:
+📋 Displaying a list of registered consents.
 
-```bash
-ng serve
-```
+![image](https://github.com/user-attachments/assets/8ae87cf3-f1c6-4a8d-ba4c-c9bb00e3c4ad)
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
 
-## Code scaffolding
+## 🚀 Technologies Used
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+- [Angular CLI](https://github.com/angular/angular-cli) version 19.2.3.
+- SCSS
+- TypeScript
 
-```bash
-ng generate component component-name
-```
+## 📦 Installation
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+1. Clone the repository:
 
 ```bash
-ng generate --help
+    git clone https://github.com/biachiarelli/frontend-challenge.git
 ```
-
-## Building
-
-To build the project run:
+2. Navigate to the project folder:
 
 ```bash
-ng build
+  cd frontend-challenge\consents-app
 ```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+3. Install dependencies:
 
 ```bash
-ng test
+   npm install
 ```
 
-## Running end-to-end tests
 
-For end-to-end (e2e) testing, run:
+## 🔨 How to Run the Project
+
+1. Start the development server:
 
 ```bash
-ng e2e
+    ng serve
 ```
+2. Access the project at:
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+```bash
+      http://localhost:4200
+```
