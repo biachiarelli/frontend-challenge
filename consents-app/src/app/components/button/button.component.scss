@@ -1,8 +1,13 @@
 .button {
+    cursor: pointer;
     border: none;
     background-color: var(--primary);
     color: var(--white);
     font-size: 14px;
     padding: 8px 24px;
     border-radius: 8px;
+
+    &:hover {
+        
+    }
 }

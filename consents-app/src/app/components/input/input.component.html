@@ -1,4 +1,10 @@
 <div class="input">
     <label class="input-label">{{ label }}</label>
-    <input type="text" class="input-field" />
+    <input 
+        class="input-field" 
+        [type]="type" 
+        [value]="value"
+        (input)="onInput($event)"
+        (blur)="onTouched()"
+    />
 </div>

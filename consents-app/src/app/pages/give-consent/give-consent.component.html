@@ -2,17 +2,20 @@
     <h1 class="give-consent-title">Give consent</h1>
 
     <div class="give-consent-container">
-        <form class="give-consent-form">
-            <app-input label="Name" />
-            <app-input label="E-mail" />
+        <form class="give-consent-form" [formGroup]="consentForm" >
+            <app-input label="Name" formControlName="name" />
+            <app-input label="E-mail" formControlName="email" />
 
-            <div class="form-checkboxes">
-                <app-checkbox label="Recive newsletter" />
-                <app-checkbox label="Be shown targeted ads" />
-                <app-checkbox label="Contribute to anonymous visit statistics" />
-            </div>
             
-            <app-button>Give consent </app-button>
+            <div class="form-checkboxes">
+                <app-checkbox 
+                 *ngFor="let key of consentKeys"
+                    [label]="consentsOptions[key]"
+                    [checked]="selectedConsents[key]" 
+                    (change)="toggleConsent(key)"
+                />
+            </div>
+            <app-button (click)="submitForm()">Give consent </app-button>
         </form>
     </div>
 </div>

@@ -2,6 +2,17 @@
     <h1 class="collected-consents-title">Collected consents</h1>
 
     <div class="collected-consents-container">
-        
+        <table class="collected-consents-table">
+            <tr class="table-header" >
+                <th>Name</th>
+                <th>E-mail</th>
+                <th>Conset given for</th>
+            </tr>
+            <tr class="table-line" *ngFor="let item of consents">
+                <td>{{ item.name }}</td>
+                <td>{{ item.email }}</td>
+                <td *ngFor="let consent of item.consents">{{ consent }}, </td>
+            </tr>
+        </table>
     </div>
 </div>

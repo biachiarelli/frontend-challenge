@@ -15,4 +15,18 @@
         flex-grow: 1;
     }
 
+    &-table {
+        width: 100%;
+
+        th, td {
+            padding: 12px 8px;
+        }
+
+        th {
+            text-align: left;
+            background-color: var(--gray-100);
+            color: var(--gray-600)
+        }
+    }
+
 }
