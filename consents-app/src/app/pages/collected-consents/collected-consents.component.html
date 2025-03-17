@@ -8,11 +8,18 @@
                 <th>E-mail</th>
                 <th>Conset given for</th>
             </tr>
-            <tr class="table-line" *ngFor="let item of consents">
+            <tr class="table-line" *ngFor="let item of paginatedConsents">
                 <td>{{ item.name }}</td>
                 <td>{{ item.email }}</td>
-                <td *ngFor="let consent of item.consents">{{ consent }}, </td>
+                <td><span *ngFor="let consent of item.consents"> {{ consent }}<br /></span> </td>
             </tr>
         </table>
+        
+        <div class="collected-consents-pagination">
+            <button (click)="goToPreviousPage()" [disabled]="currentPage === 1" class="pagination-button">Previous</button>
+            <span class="pagination-label">Page {{ currentPage }} of {{ totalPages }}</span>
+            <button (click)="goToNextPage()" [disabled]="currentPage === totalPages"  class="pagination-button">Next</button>
+        </div>
     </div>
+
 </div>
