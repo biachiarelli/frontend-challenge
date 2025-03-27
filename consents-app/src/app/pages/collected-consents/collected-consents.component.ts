@@ -58,10 +58,10 @@ export class CollectedConsentsComponent implements OnInit {
 
   ngOnInit() {
     this.consentsService.get('/consents', (response) => {
-      const res = JSON.parse(response)
-      this.consents = [...this.consents, res];
+      const res = JSON.parse(response);
+      this.consents = [ ...res, ...this.consents];
 
-      this.totalPages = this.consents.length / this.pageSize;
+      this.totalPages =  Math.ceil(this.consents.length / this.pageSize);
 
       this.updatePaginatedUsers()
     });
